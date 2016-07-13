@@ -49,7 +49,14 @@ ionic io init
 ```
 ionic platform add android
 ```
-####5. BUILD IT
+####5. BUILD IT FOR A PLATFORM OR SEE IT IN BROWSER 
+
+You can build the apk with following command. Make sure you have installed Android SDK on your computer before running this.
 ```
 ionic build android
+```
+
+Or you can test the app in your web browser by entering following command. Note that you can use `ionic serve` to start a local development server for app dev and testing. Most of the mobile app specific features (ex. Push notifications .etc) are disabled when you run `ionic serve` command.
+```
+ionic serve
 ```
