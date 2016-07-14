@@ -47,7 +47,7 @@ app
 	|__ sample.controllers.js
 ```	
 
-`sample` is the name of the module. We use the naming convention as `MODULE_NAME.module.js' .etc to define the `js` files of the module. 
+`sample` is the name of the module. We use the naming convention as `MODULE_NAME.module.js` .etc to define the `js` files of the module. 
 
 > `sample.module.js` 
 This contains nothing more than just the initiation of the angular module. Since most of our modules needs routing, we will have to import `ui.router` dependency.
