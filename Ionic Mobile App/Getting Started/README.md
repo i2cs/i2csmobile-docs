@@ -50,6 +50,7 @@ app
 `sample` is the name of the module. We use the naming convention as `MODULE_NAME.module.js` .etc to define the `js` files of the module. 
 
 > `sample.module.js` 
+
 This contains nothing more than just the initiation of the angular module. Since most of our modules needs routing, we will have to import `ui.router` dependency.
 
 ```javascript
@@ -59,6 +60,7 @@ angular.module('sample.module', ['ui.router']);
 ```
 
 > `sample.config.js` 
+
 This file contains the configurations of the module we are creating. Configurations includes the routing and any other needed `config`. Note that this module contains two views, one for the tabs theme and the other is for the side menu theme.
 
 ```javascript
@@ -122,6 +124,7 @@ For the sample module, we need a service layer to communicate with the backend A
 Note : `this.GetAdvanced` service method gets the $http response into an object with name `data`. If data coming from the API needs to be manipulated from app side before rendering in UI, we  recommend you to do those changes within the `service` layer. `this.GetAdvanced` method is an example for that.
 
 > `sample.controllers.js` 
+
 This file contains all the neccessary `controllers` of the module.
 
 ```javascript
