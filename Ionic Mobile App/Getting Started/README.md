@@ -72,18 +72,30 @@ angular.module('sample.module')
                 abstract: true,
                 views: {
                     'tab-sample': {
-                        templateUrl: 'app/sample/templates/item_list.html'
+                        templateUrl: 'app/sample/templates/layout.html'
                     },
                     'menu': {
-                        templateUrl: 'app/sample/templates/item_list.html'
+                        templateUrl: 'app/sample/templates/layout.html'
                     }
                 }
             })
-		});
+            .state('app.sample.list', {
+                url: '/list',
+                views: {
+                    'sampleContent': {
+                        templateUrl: 'app/sample/templates/item_list.html',
+                        controller: 'SampleCtrl'
+                    }
+                }
+            })
+	});
 ```
 
+This contains an abstract view for the module. In this architecture, all modules carries their own layout page. The layout page contains in an `abstract` state, so it can't be rendered alone. The state `app.sample.list` is derived through the abstract state and it contains the real html markup of the module state. We recommend to use this file if you need more configurations to be injected to the module.
+
 > `sample.service.js` 
-This file contains the configurations of the module we are creating. Configurations includes the routing and any other needed `config`. Note that this module contains two views, one for the tabs theme and the other is for the side menu theme.
+
+For the sample module, we need a service layer to communicate with the backend API. We use angular `promise` chains to pass data from API to the UI. 
 
 ```javascript
 (function () {
@@ -107,9 +119,26 @@ This file contains the configurations of the module we are creating. Configurati
 })();
 ```
 
-For the sample module, we need a service layer to communicate with the backend API. We use angular `promise` chains to pass data from API to the UI. 
-
 Note : `this.GetAdvanced` service method gets the $http response into an object with name `data`. If data coming from the API needs to be manipulated from app side before rendering in UI, we  recommend you to do those changes within the `service` layer. `this.GetAdvanced` method is an example for that.
+
+> `sample.controllers.js` 
+This file contains all the neccessary `controllers` of the module.
+
+```javascript
+'use strict';
+
+angular
+    .module('cart.module')
+    .controller('SampleCtrl', function ($scope, SampleService) {
+    	SampleService.GetSomething().then(function(data){
+    		$scope.list = data;
+    	})
+    });
+```
+
+We pass the angular `promis` up to the controller level and consume data only at the point of executing the function from the controlelr. This practice made most of the async calls very easy to manage and project dynamically to the UI.
+Note : Since we are not passing `$scope` to service layer, it's very easy to get rid of `$scope` and start using `this`
+
 
 ####1.1. CART
 
