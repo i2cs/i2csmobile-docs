@@ -93,7 +93,7 @@ angular.module('sample.module')
 	});
 ```
 
-This contains an abstract view for the module. In this architecture, all modules carries their own layout page. The layout page contains in an `abstract` state, so it can't be rendered alone. The state `app.sample.list` is derived through the abstract state and it contains the real html markup of the module state. We recommend to use this file if you need more configurations to be injected to the module.
+This contains an abstract view for the module. In this architecture, each module carries their own layout page. The layout page contains in an `abstract` state, so it can't be rendered alone. The state `app.sample.list` is derived through the abstract state and it contains the real html markup of the module state. We recommend to use this file if you need more configurations to be injected to the module.
 
 > `sample.service.js` 
 
