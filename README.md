@@ -3,4 +3,4 @@
 Product Documentation and User Guide
 ----
 
-i2csmobile.com
+http://i2csmobile.com
