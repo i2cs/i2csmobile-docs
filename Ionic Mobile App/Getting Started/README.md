@@ -152,19 +152,19 @@ Note : Keep `$scope` variable in between controller and the UI template as a pra
 
 Common folder is the place for `services` and `directives` which are common for the entire application.
 
-* app.service.js
+* `app.service.js`
 This has service calls related to customer registration, login and logout
 
-* analytics.service.js
+* `analytics.service.js`
 Google analytics service. Captures page views.
 
-* data.service.js
+* `data.service.js`
 Calls the http API endpoints and resolves the response. Contains authentication call, which should be called before using apiSecuredPost method. otherwise it will reject the request with error status of 0 on API calls which needs the authentication
 
-* notification.service.js
+* `notification.service.js`
 Initializes the notification service. This will register the device for push notifications. Subscribes the device for a scheduled notification with random greeting message notified in 86400000 seconds from now
 
-* update.service.js
+* `update.service.js`
 Initializes the update service. This will check for available app updates on start and once in a 5 minutes. If an update is available, checks for network connection. If the device is connected to a WIFI connection, download the update and install, otherwise popup informing the update will be downloaded when device is connected to a WIFI
 
 ###1.2. SHOP
@@ -189,10 +189,12 @@ Shop is the default landing module of the app. It has all the functionality rela
 > Product search view
 
 * Search for keywords
+* Infinite scroll
 
 > Product category view
 
 * Latest products of selected category
+* Infinite scroll
 
 ###1.3. CART
 
@@ -238,6 +240,14 @@ Offers tab shows image feed from a banner and special priced items.
 ###1.6. MENU
 
 This contains main layout entry points of the app. Out-of-the-box product comes with two different templates for menu styles, tab navigation and side menu navigation.
+
+> Tabs
+
+Default is the tabs UI. `tabs.html` contains the icons which should be added to each tab in the UI.
+
+> Side menu
+
+Enables a left side menu to navigate.
 
 ###1.7. PAYMENT MODULES
 
