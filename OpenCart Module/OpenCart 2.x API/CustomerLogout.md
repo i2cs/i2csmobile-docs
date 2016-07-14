@@ -1,22 +1,15 @@
-Generates a valid token for secured API calls
+#i2CSMobile : 99 Customer Logout
+
+This contains API calls related to Customer Logout 
+
+##99.1 api2/user_logout : Customer Logout
+
+Log out an active session of current logged in user
+
 
 > Success Response
-
 ```
 {
-    "success":"Success: API session successfully started!",
-    "token":"aPyo1uEhFQCkZ3kxxh44I51xnwTb7dRt"
-}
-```
-
-> Error Response
-
-* this error is caused by not providing a valid API Key in the OpenCart i2CSMobile admin panel. First go to `System > Users > API` and create a new API user. Generate a key and copy/paste that to `Mobile API Key` field of i2CSMobile admin panel.
-
-```
-{
-  "error": {
-    "key": "Warning: Incorrect API Key!"
-  }
+  "success": true
 }
 ```

@@ -1,22 +1,26 @@
-Generates a valid token for secured API calls
+#i2CSMobile : 14 Order History
+
+This contains API calls related to Orders History
+
+##14.1 api2/order_history : Order History
+
+Order list of logged in customer. Has to be a registered customer to return data
+
 
 > Success Response
 
 ```
 {
-    "success":"Success: API session successfully started!",
-    "token":"aPyo1uEhFQCkZ3kxxh44I51xnwTb7dRt"
+  "orders": []
 }
 ```
 
-> Error Response
+##14.2 api2/order_history/info : Order Information
 
-* this error is caused by not providing a valid API Key in the OpenCart i2CSMobile admin panel. First go to `System > Users > API` and create a new API user. Generate a key and copy/paste that to `Mobile API Key` field of i2CSMobile admin panel.
+Get Order history information by Id
+
+> Success Response
 
 ```
-{
-  "error": {
-    "key": "Warning: Incorrect API Key!"
-  }
-}
+
 ```

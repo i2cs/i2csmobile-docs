@@ -1,3 +1,9 @@
+#i2CSMobile : 01 Auth
+
+Authentication with i2CSMobile API. All secured API calls are needed this API call run first as it will start a valid session
+
+##1.1 api2/login_mobile : Login
+
 Generates a valid token for secured API calls
 
 > Success Response
