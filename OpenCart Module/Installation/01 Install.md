@@ -43,3 +43,6 @@ For more information about OCMOD please follow this link
 7.	Go to `Extensions > Modules`. Click Edit button of `i2CSMobile` module in the module list 
 
 8.	You have successfully installed the module!
+
+
+####[Section 2 : Configurations](02 Configurations.md) 
