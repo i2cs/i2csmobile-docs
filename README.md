@@ -1,13 +1,18 @@
-#i2CSMobile
-
-i2CS Mobile Shopping App for OpenCart Backend
+#i2CSMobile Shopping App for OpenCart Backend
 ----
+
+###Table of Contents
+
+####[OpenCart Module](OpenCart Module)
+
+####[Ionic Mobile App](Ionic Mobile App)
+
 
 http://i2csmobile.com
 
 ![alt text](/img/banner.png "Main banner")
 
-This app is a demo of the i2CS Mobile App (Android version) for OpenCart Backend. Easily configurable with any version of existing OpenCart 2.x online shopping site via our API. Following are some of the features available,
+This repository is the product documentation of i2CSMobile App for OpenCart Backend. Easily configurable with any version of existing OpenCart 2.x online shopping site via our API. Following are some of the features available,
 <br/>
 
 #Features
