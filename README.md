@@ -1,14 +1,15 @@
 #i2CSMobile Shopping App for OpenCart Backend
-----
 
-###Table of Contents
+Table of Contents
+----
 
 ####[Section 01 : OpenCart Module](OpenCart Module)
 
 ####[Section 02 : Ionic Mobile App](Ionic Mobile App)
 
+----
 
-http://i2csmobile.com
+Visit [http://i2csmobile.com](http://i2csmobile.com) for more info
 
 ![alt text](/img/banner.png "Main banner")
 
