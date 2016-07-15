@@ -32,6 +32,8 @@
 
 ####[i2CSMobile : 16 Address](16 Address.md)
 
+####[i2CSMobile : 17 Language](17 Language.md)
+
 ####[i2CSMobile : 99 Customer Logout](99 Customer Logout.md)
 
 
