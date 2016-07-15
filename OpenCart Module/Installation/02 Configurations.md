@@ -85,3 +85,6 @@ This is the tab where you can make all the configuration changes to the `i2CSMob
 2.  I didn’t create a new store. Would it be a problem?
 
     No. It will work fine even if you have only one store within the OpenCart. It’s totally an optional step to create a new store 
+
+
+####[Section 3 : Testing the API](03 Testing the API.md) 
