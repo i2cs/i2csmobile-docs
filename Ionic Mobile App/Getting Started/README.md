@@ -73,7 +73,7 @@ This file contains the configurations of the module we are creating. Configurati
 angular.module('sample.module')
     .config(function config($stateProvider) {
         $stateProvider
-            .state('app.sample', {
+            .state('app.menu.sample', {
                 url: '/sample',
                 abstract: true,
                 views: {
@@ -85,7 +85,7 @@ angular.module('sample.module')
                     }
                 }
             })
-            .state('app.sample.list', {
+            .state('app.menu.sample.list', {
                 url: '/list',
                 views: {
                     'sampleContent': {
@@ -261,11 +261,11 @@ Payment modules are to communicate with customizable payment gateways. A payment
 var starter = angular.module('starter', ['ionic', 'sample.module')
 ```
 
-Apart from that, the `app.js` file contains some core directives and configurations. This file has the main route entry of the app. You can switch the main layout (tabs or side menu) by toggling following lines
+Apart from that, the `app.js` file contains configurations. This file has the main route entry of the app. You can switch the main layout (tabs or side menu) by toggling following lines. The app is bootstrapped from an abstract state called `app`. Then it branches into two abstract states, `app.menu` and `app.main`. All the states which inherit `app.menu` state will have either tabs or side menu, whereas `app.main` will have a clean layout without tabs or side menus.  
 
 ```javascript
-state('app', {
-	url: '/app',
+state('menu', {
+	url: '/app/menu',
 	abstract: true,
 	templateUrl: 'app/menu/templates/tabs.html',
 	//templateUrl: 'app/menu/templates/side.html',
