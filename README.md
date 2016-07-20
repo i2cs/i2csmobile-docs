@@ -13,7 +13,6 @@ Table of Contents
 
 Visit [http://i2csmobile.com](http://i2csmobile.com) for more info
 
-![alt text](/img/banner.png "Main banner")
 
 This repository is the product documentation of i2CSMobile App for OpenCart Backend. Easily configurable with any version of existing OpenCart 2.x online shopping site via our API. Following are some of the features available,
 <br/>
