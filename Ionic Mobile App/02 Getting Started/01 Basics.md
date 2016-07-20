@@ -126,6 +126,7 @@ Cart module consists of the functionality of the Cart tab of the mobile app. It 
 * Select shipping method
 * Select payment method
 * Place the order
+* Start online payment procedure
 
 ###1.4. INFO
 
