@@ -102,10 +102,9 @@ This contains an abstract view for the module. In this architecture, each module
 `sample.service.js` 
 -----
 
-For the sample module, we need a service layer to communicate with the back-end API. We use angular `promise` chains to pass data from API to the UI. 
+For the sample module, we need a service layer to communicate with the back-end API. We use angular `promise` chains to pass data from API to the UI. Since most of the services interact with the API, we have defined a core serviec called `dataService`. 
 
 ```javascript
-(function () {
     'use strict';
     angular
         .module('sample.module')
@@ -122,8 +121,8 @@ For the sample module, we need a service layer to communicate with the back-end 
 					return data;
 				});
             }
-		});
-})();
+	});
+
 ```
 
 Note : `this.GetAdvanced` service method gets the $http response into an object with name `data`. If data coming from the API needs to be manipulated from app side before rendering in UI, we  recommend you to do those changes within the `service` layer. `this.GetAdvanced` method is an example for that.
@@ -150,7 +149,7 @@ Note : Keep `$scope` variable in between controller and the UI template as a pra
 
 ###1.1. COMMON
 
-Common folder is the place for `services` and `directives` which are common for the entire application.
+Common folder is the place for `services` and `widgets` which are common for the entire application. There are few core `services` and `widgets` provided by default.
 
 * `app.service.js`
 This has service calls related to customer registration, login and logout
@@ -159,7 +158,15 @@ This has service calls related to customer registration, login and logout
 Google analytics service. Captures page views.
 
 * `data.service.js`
-Calls the http API endpoints and resolves the response. Contains authentication call, which should be called before using apiSecuredPost method. otherwise it will reject the request with error status of 0 on API calls which needs the authentication
+Calls the http API endpoints and resolves the response. Contains authentication call, `apiLogin` which should be called before using apiSecuredPost method. otherwise it will reject the request with error status of 0 on API calls which needs the authentication. The `dataService` is responsible for providing a `promise` object containing the requested data. On a success response it returns the data from the server, and on an error the promise rejects with the HTTP server response. i.e, HTTP server response object contains,
+
+```
+config:Object
+data:Object
+headers:function(c)
+status:406
+statusText:"Not Acceptable"
+```
 
 * `notification.service.js`
 Initializes the notification service. This will register the device for push notifications. Subscribes the device for a scheduled notification with random greeting message notified in 86400000 seconds from now
