@@ -12,9 +12,11 @@ Normally each module which interacts directly with end user has following struct
 ```
 app
 |__ sample
-    |__ templates
-		|__ item_list.html
-		|__ layout.html
+    |
+	|__ templates
+	|	|__ item_list.html
+	|	|__ layout.html
+	|
 	|__ sample.module.js
 	|__ sample.config.js
 	|__ sample.service.js
