@@ -36,6 +36,7 @@ app
 The checkout flow in the i2CSMobile app is same as the checkout flow of the OpenCart. App collects user data, address, payment method and shipping method and when user taps on `confirm` button the order will be placed in the system. Then the app will search for registered payment modules having same name as code of the selected payment option of OpenCart and invoke the home route if it's available. If the payment module is not found, it will show the success page.
 
 Ex.
+
 1. User fills personal info
 2. Selects Shipping method
 3. Selects Payment method with payment code `i2cs_alipay`
