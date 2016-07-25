@@ -33,17 +33,17 @@ app
 
 ###Payment Module in Checkout Flow 
 
-The checkout flow in the i2CSMobile app is same as the checkout flow of the OpenCart. App collects user data, address, payment method and shipping method and when user taps on `confirm` button the order will be placed in the system. Then the app will search for registered payment modules having same name as code of the selected payment option of OpenCart and invoke the home route if it's available. If the payment module is not found, it will show the success page.
+The checkout flow in the i2CSMobile app is same as the checkout flow of the OpenCart. App collects user data, address, payment method and shipping method and when user taps on `confirm` button, app will search for registered payment modules having same name as code of the selected payment option of OpenCart and invoke the home route if it's available. If the payment module is not found, it will show the success page.
 
 Ex.
 
 1. User fills personal info
 2. Selects Shipping method
 3. Selects Payment method with payment code `i2cs_alipay`
-4. Confirms the order. This will place the order with Pending status.
+4. Confirms the order.
 5. App will invoke the home page of `i2cs_alipay` module
-6. Proceed with steps depending on the implementation of the payment module. Service methods of the payment module are responsible for updating the API with correct statuses. You need to register a payment handler in the OpenCart back-end to communicate with the payment module of the mobile app.
- 
+6. Proceed with steps depending on the implementation of the payment module. Service methods of the payment module are responsible for placing the order and updating the API with correct statuses. You need to register a payment handler in the OpenCart back-end to communicate with the payment module of the mobile app.
+
 
 ###Module Components
 
