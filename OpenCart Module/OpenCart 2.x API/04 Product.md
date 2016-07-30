@@ -164,7 +164,7 @@ Get a Product by `product_id` via API
 }
 ```
 
-##4.3 api2/product : Get a Product Reviews
+##4.3 api2/product/getreviews : Get a Product Reviews
 
 Get a Products' reviews by `product_id` via API
 
@@ -191,7 +191,7 @@ Get a Products' reviews by `product_id` via API
 }
 ```
 
-##4.4 api2/product : Add a Product Reviews
+##4.4 api2/product/addreview : Add a Product Reviews
 
 Add a new review to the product identified by `product_id` via API
 
