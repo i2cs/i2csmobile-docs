@@ -163,3 +163,49 @@ Get a Product by `product_id` via API
   "recurrings": []
 }
 ```
+
+##4.3 api2/product : Get a Product Reviews
+
+Get a Products' reviews by `product_id` via API
+
+> Supported Parameters
+
+* `product_id` [Number] Id of the product
+* `page` [Number] Page number
+
+> Success Response
+
+```
+{
+  "reviews": [
+    {
+      "author": "Adam",
+      "text": "this is a very nice product. i like this",
+      "rating": 4,
+      "date_added": "30/07/2016"
+    }
+  ],
+  "text_no_reviews": "There are no reviews for this product.",
+  "pagination": "",
+  "results": "Showing 1 to 1 of 1 (1 Pages)"
+}
+```
+
+##4.4 api2/product : Add a Product Reviews
+
+Add a new review to the product identified by `product_id` via API
+
+> Supported Parameters
+
+* `product_id` [Number] Id of the product
+* `name` [String] Reviewer name
+* `rating` [Number] Rating
+* `text` [String] User review text
+
+> Success Response
+
+```
+{
+  "success": "Thank you for your review. It has been submitted to the webmaster for approval."
+}
+```
