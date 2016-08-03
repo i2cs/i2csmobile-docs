@@ -25,6 +25,7 @@ This repository is the product documentation of i2CSMobile App for OpenCart Back
 <li>Configurable banners</li>
 <li>Configurable categories on front page</li>
 <li>Shop by product category</li>
+<li>Product reviews and rating</li>
 <li>Featured items view</li>
 <li>Infinite Scroll on product lists</li>
 <li>SASS Styles</li>
