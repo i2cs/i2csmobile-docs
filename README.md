@@ -11,7 +11,7 @@ Table of Contents
 
 ----
 
-Looking for the developer documentation of i2CSMobile ionic app? [Click here](docs.i2csmobile.com)
+Looking for the developer documentation of i2CSMobile ionic app? [Click here](http://docs.i2csmobile.com)
 
 Visit [http://i2csmobile.com](http://i2csmobile.com) for more info
 
