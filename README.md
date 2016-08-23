@@ -44,6 +44,9 @@ This repository is the product documentation of i2CSMobile App for OpenCart Back
 <li>Internet Payment Gateways (Stripe included)</li>
 </ul>
 
+![alt text](http://saasthara.com/i2cs/i2csmobilecartweb/images/catalog.png "Catalog")
+
+
 #Highlights
 ###Built in color themes with SASS
 ![alt text](/img/colors.png "Built in color themes with SASS")
