@@ -1,6 +1,6 @@
-#i2CSMobile Shopping App for OpenCart Backend
+#i2CSMobile Shopping App for OpenCart/WooCommerce Backend
 
-> Note : This repository contains only the documentation of the i2CSMobile product. Please contact us via email <a href="mailto:i2cssolutions@gmail.com">i2cssolutions@gmail.com</a> if you would like to purchase the full source code. See details of the product at [ionic marketplace](http://market.ionic.io/starters/opencart-mobile-shopping-cart-app-with-api-ionic-i2cs)
+> Note : This repository contains only the documentation of the i2CSMobile product. Please contact us via email <a href="mailto:pasan@i2csmobile.com">pasan@i2csmobile.com</a> if you would like to purchase the full source code. See details of the product at [ionic marketplace for OpenCart](http://market.ionic.io/starters/opencart-mobile-shopping-cart-app-with-api-ionic-i2cs) and  [ionic marketplace for WooCommerce](http://market.ionic.io/starters/woocommerce-mobile-shopping-cart-app-with-api-by-i2cs)
 
 Table of Contents
 ----
