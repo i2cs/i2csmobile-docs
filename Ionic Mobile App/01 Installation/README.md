@@ -56,7 +56,7 @@ You can build the apk with following command. Make sure you have installed Andro
 ionic build android
 ```
 
-Or you can test the app in your web browser by entering following command. Note that you can use `ionic serve` to start a local development server for app dev and testing. Most of the mobile app specific features (ex. Push notifications .etc) are disabled when you run `ionic serve` command.
+Or you can test the app in your web browser by entering following command. Note that you can use `ionic serve` with `--lab` optional parameter to start a local development server for app dev and testing. Most of the mobile app specific features (ex. Push notifications .etc) are disabled when you run `ionic serve --lab` command.
 ```
 ionic serve
 ```
@@ -92,7 +92,7 @@ You can build the apk with following command. Make sure you have installed Andro
 ionic build android
 ```
 
-Or you can test the app in your web browser by entering following command. Note that you can use `ionic serve` to start a local development server for app dev and testing. Most of the mobile app specific features (ex. Push notifications .etc) are disabled when you run `ionic serve` command.
+Or you can test the app in your web browser by entering following command. Note that you can use `ionic serve` with `--lab` optional parameter to start a local development server for app dev and testing. Most of the mobile app specific features (ex. Push notifications .etc) are disabled when you run `ionic serve --lab` command.
 ```
-ionic serve
+ionic serve --lab
 ```
