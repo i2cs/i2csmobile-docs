@@ -71,6 +71,10 @@ This repository is the product documentation of i2CSMobile App for OpenCart Back
 <h3>Android App</h3>
 <div><a href="https://play.google.com/store/apps/details?id=com.i2cs.mobile.demo" target="_blank">Google Play</a></div>
 
+<h3>Apple iOS App</h3>
+<div><a href="https://itunes.apple.com/us/app/i2csmobile-shopping/id1130835957?mt=8" target="_blank">App Store</a></div>
+
+
 ###OpenCart 2.x Demo backend
 *Note : Push notifications and analytics are not available in the demo site
 <div>
