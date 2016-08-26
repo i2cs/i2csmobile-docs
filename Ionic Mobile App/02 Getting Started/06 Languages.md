@@ -48,7 +48,7 @@ After creating the language pack, that needs to be loaded to the UI. Language sw
 
 1.	Go to `variables.js`
 
-2.	There should be a `constant` array with key `LANGUAGES`. Add following entry to the `json` array,
+2.	There should be a `constant` with `json` array having the key `LANGUAGES`. Add following entry to the `json` array,
 	```
 		{ name: "Italian", language_id: "it-IT" },
 	```
