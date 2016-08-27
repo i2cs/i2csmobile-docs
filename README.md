@@ -47,20 +47,6 @@ This repository is the product documentation of i2CSMobile App for OpenCart Back
 
 ![alt text](http://saasthara.com/i2cs/i2csmobilecartweb/images/catalog.png "Catalog")
 
-
-#Highlights
-###Built in color themes with SASS
-![alt text](/img/colors.png "Built in color themes with SASS")
-
-###Special prices for mobile/mobile registered users
-![alt text](/img/special.png "Special prices for mobile/mobile registered users")
-
-###Feature rich admin module for OpenCart to control the mobile app
-![alt text](/img/oc.png "Feature rich admin module for OpenCart to control the mobile app")
-
-###Well documented code base
-![alt text](/img/code.png "Well documented code base")
-
 #What you get
 <ul>
 <li>Full ionic source code (you may compile it to any platform, as you wish + change the source)</li>
@@ -69,11 +55,12 @@ This repository is the product documentation of i2CSMobile App for OpenCart Back
 </ul>
 
 #Demo
-<h3>Android App</h3>
-<div><a href="https://play.google.com/store/apps/details?id=com.i2cs.mobile.demo" target="_blank">Google Play</a></div>
 
-<h3>Apple iOS App</h3>
-<div><a href="https://itunes.apple.com/us/app/i2csmobile-shopping/id1130835957?mt=8" target="_blank">App Store</a></div>
+|           | OpenCart | WooCommerce   |
+| :------- | :---: | :---: |
+| Android App | [Google Play](https://play.google.com/store/apps/details?id=com.i2cs.mobile.demo) |  [Google Play](https://play.google.com/store/apps/details?id=com.i2cs.mobile.wc.demo)    |
+| Apple iOS App | [App Store](https://itunes.apple.com/us/app/i2csmobile-shopping/id1130835957?mt=8)   |     |
+| Ionic View ID     | `59e395a2`    |  `2cf20c90`  |
 
 
 ###OpenCart 2.x Demo backend
