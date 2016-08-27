@@ -5,11 +5,15 @@
 Table of Contents
 ----
 
-* ####[Section 01 : Ionic Mobile App](Ionic Mobile App)
-
-* ####[Section 02 : Backend](Backend)
-    #####[Section 01 : OpenCart Module](Backend/OpenCart Module)
-
+<ul>
+<li>[Section 01 : Ionic Mobile App](Ionic Mobile App)</li>
+<li>[Section 02 : Backend](Backend)</li>
+<li>
+    <ul>
+        <li>[Section 01 : OpenCart Module](Backend/OpenCart Module)</li>
+    </ul>
+</li>    
+</ul>
 ----
 
 Looking for the developer documentation of i2CSMobile ionic app? [Click here](http://docs.i2csmobile.com)
