@@ -196,7 +196,7 @@ This file contains two mandatory controllers, `WelcomeCtrl` and `AppCtrl`.
 
 ###2.0. VARIABLES.JS
 
-This is the place you have to edit in order to change some of the configurable values of the app. Most important configuration is the `BASE_API_URL`. Set it to your OpenCart instance once you are successfully installed the OpenCart module for i2CSMobile app.
+This is the place you have to edit in order to change some of the configurable values of the app. Most important configuration is the `BASE_API_URL`. Set it to your OpenCart/WooCommerce instance once you are successfully installed the OpenCart/WooCommerce module or plugin for i2CSMobile app.
 
 ```javascript
 .constant('BASE_API_URL', 'http://shop.i2csmobile.com/index.php?route=api2')
