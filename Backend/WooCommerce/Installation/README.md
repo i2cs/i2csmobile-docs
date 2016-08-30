@@ -4,7 +4,7 @@
 
 ###WooCommerce
 
-In this guide we assume that you already have `WooCommerce` plgin installed in your `WordPress` site. If you have not done so, please navigate to the following link and install `WooCommerce`. [https://wordpress.org/plugins/woocommerce/](https://wordpress.org/plugins/woocommerce/)
+In this guide we assume that you already have `WooCommerce` plugin installed in your `WordPress` site. If you have not done so, please navigate to the following link and install `WooCommerce`. [https://wordpress.org/plugins/woocommerce/](https://wordpress.org/plugins/woocommerce/)
 
 ###MetaSlider
 
