@@ -7,7 +7,7 @@ Table of Contents
 
 -   [Section 01 : Ionic Mobile App](Ionic Mobile App)
 -   [Section 02 : Backend](Backend)
-    -   [Chapter 01 : OpenCart](Backend/OpenCart)
+    -   [Chapter 01 : OpenCart](Backend/OpenCart Module)
     -   [Chapter 02 : WooCommerce](Backend/WooCommerce)
 
 ----
