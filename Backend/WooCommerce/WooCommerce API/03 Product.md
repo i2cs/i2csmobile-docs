@@ -17,6 +17,7 @@ Get Products list.
 * `attribute` [String] Limit result set to products with a specific attribute
 * `attribute_term` [String] Limit result set to products with a specific attribute term (required an assigned attribute)
 * `sku` [String] Limit result set to products with a specific SKU
+* `featured` [Boolean] Whether to load featured items only
 
 > Success Response
 
