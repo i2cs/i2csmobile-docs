@@ -2,7 +2,7 @@
 
 This test will run API calls related to Customer controller
 
-##09.1 api2/customer : Adds Customer when Placing an Order
+##9.1 api2/customer : Adds Customer when Placing an Order
 
 Load an existing Customer to an Order or updates Customer information of an Order
 
@@ -42,7 +42,7 @@ Load an existing Customer to an Order or updates Customer information of an Orde
 }
 ```
 
-##09.2 api2/customers/groups : Get Customer Groups
+##9.2 api2/customers/groups : Get Customer Groups
 
 Gets a list of Customer Groups via API
 
