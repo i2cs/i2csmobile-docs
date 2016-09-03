@@ -66,7 +66,7 @@ This has service calls related to customer registration, login and logout
 Google analytics service. Captures page views.
 
 * `data.service.js`
-Calls the http API endpoints and resolves the response. Contains authentication call, `apiLogin` which should be called before using apiSecuredPost method. otherwise it will reject the request with error status of 0 on API calls which needs the authentication. The `dataService` is responsible for providing a `promise` object containing the requested data. On a success response it returns the data from the server, and on an error the promise rejects with the HTTP server response. i.e, HTTP server response object contains,
+Calls the http API endpoints and resolves the response. The `dataService` is responsible for providing a `promise` object containing the requested data. On a success response it returns the data from the server, and on an error the promise rejects with the HTTP server response. i.e, HTTP server response object contains,
 
 ```
 config:Object
