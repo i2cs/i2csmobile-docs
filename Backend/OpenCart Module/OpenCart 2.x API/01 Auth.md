@@ -1,4 +1,6 @@
-#i2CSMobile : 01 Auth
+#i2CSMobile : 01 Auth [deprecate]
+
+> *Note* No longer need this method
 
 Authentication with i2CSMobile API. All secured API calls are needed this API call run first as it will start a valid session
 
