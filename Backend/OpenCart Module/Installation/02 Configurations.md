@@ -1,4 +1,4 @@
-#Installation guide of i2CSMobile OpenCart 2.1 API module
+#Installation guide of i2CSMobile OpenCart 2.x API module
 
 ##Configurations
 
