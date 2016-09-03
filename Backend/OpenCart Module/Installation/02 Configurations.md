@@ -34,21 +34,6 @@ Please note that this section is optional. You can go ahead with default store o
 
 5.	Save to add the new store. You will be shown a success message `Success: You have modified Stores!`
 
-###Creating a new API User [Optional Step]
-
-Please note that this section is optional. You can use the existing API user as the API user for our mobile app. But still, it’s better to have a totally different user to provide mobile API data.
-
-1.	Go to `OpenCart Admin panel > Settings > API` to open APIs view
-
-2.	In the APIs page, click on  Add New button
-
-3.	Choose a name for your API. We used mobile as the name for this guide
-
-4.	Click on Generate button to create a new API Key
-
-5.	Set the status to Enabled and then click on save icon to create the API user
-
-6.	Now you have successfully crated a new API 
 
 ###I2CSMobile Settings
 
@@ -60,21 +45,17 @@ Now you are ready to setup the configurations and make them all wire up to get t
 
 This is the tab where you can make all the configuration changes to the `i2CSMobile` system. Changes you make here are directly reflected to the mobile app, thus it’s recommended to test the live app each time you make any configuration change.
 
-1.	You have to set the Mobile API Key to let `i2CSMobile` module access the inner data of your OpenCart store. Go to Settings > Users > API and click on the API you would like to associate with. In this guide, we used the newly created mobile api. Select the entire API Key and Copy `(CTRL + C or right click and select copy)`
+1.	Select the customer group for mobile app on Mobile User Group field. In our guide, we use Mobile app group. Customers are added to Mobile User Group when they are registered through mobile app. Furthermore, mobile only special prices are also calculated and presented based on this user group. You can see this special price on mobile in the purchase button and on item view page. This represents the price you offer to your mobile app users if the create an account in mobile app.
 
-2.	Come back to `i2CSMobile` module and paste the key inside Mobile API Key field
+2.	You can set the main banner of the home screen of the app from Main Banner field. All the available banners will be loaded to the dropdown and you may select one among them. Main banner is the one you can see in the Landing page of the app.
 
-3.	Select the customer group for mobile app on Mobile User Group field. In our guide, we use Mobile app group. Customers are added to Mobile User Group when they are registered through mobile app. Furthermore, mobile only special prices are also calculated and presented based on this user group. You can see this special price on mobile in the purchase button and on item view page. This represents the price you offer to your mobile app users if the create an account in mobile app.
+3.	You can configure a secondary banner in the API. In most cases you might need to show special offers in the main screen. Offer Banner field is to define a banner which appears in the home screen.
 
-4.	You can set the main banner of the home screen of the app from Main Banner field. All the available banners will be loaded to the dropdown and you may select one among them. Main banner is the one you can see in the Landing page of the app.
+4.	There is an Offers Tab in the mobile app to show new offers and special priced items. You can set an array of images to be listed there by configuring Offers Tab Banner field.
 
-5.	You can configure a secondary banner in the API. In most cases you might need to show special offers in the main screen. Offer Banner field is to define a banner which appears in the home screen.
+5.	I2CSMobile app supports featured items slideshow out-of-the box. You can see this in the shop main screen under the title Featured Products. Configuration for the featured items is available in the i2CSMobile admin panel with Featured Items Module dropdown. If you don’t see anything in the dropdown, please add Featured module and create a new featured item module. You can set items to be listed in the Featured Products section within the featured items module. See http://docs.opencart.com/extension/module/ to learn about core modules. 
 
-6.	There is an Offers Tab in the mobile app to show new offers and special priced items. You can set an array of images to be listed there by configuring Offers Tab Banner field.
-
-7.	I2CSMobile app supports featured items slideshow out-of-the box. You can see this in the shop main screen under the title Featured Products. Configuration for the featured items is available in the i2CSMobile admin panel with Featured Items Module dropdown. If you don’t see anything in the dropdown, please add Featured module and create a new featured item module. You can set items to be listed in the Featured Products section within the featured items module. See http://docs.opencart.com/extension/module/ to learn about core modules. 
-
-8.	There is a set of categories in the Shop main screen of the mobile app to provide quick navigation for the customers. You can configure which categories you’d like to show in the app using Categories field. If none of the categories are selected, the system will show all the parent categories.
+6.	There is a set of categories in the Shop main screen of the mobile app to provide quick navigation for the customers. You can configure which categories you’d like to show in the app using Categories field. If none of the categories are selected, the system will show all the parent categories.
 
 #####Common Issues
 
