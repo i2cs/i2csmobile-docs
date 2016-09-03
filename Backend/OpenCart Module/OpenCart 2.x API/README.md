@@ -1,6 +1,6 @@
 #OpenCart 2.x API
 
-####[i2CSMobile : 01 Auth](01 Auth.md)
+####[i2CSMobile : 01 Auth [deprecate]](01 Auth [deprecate].md)
 
 ####[i2CSMobile : 01 Customer Registration](02 Customer Registration.md)
 
