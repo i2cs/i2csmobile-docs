@@ -1,8 +1,8 @@
-#i2CSMobile : 09 Order
+#i2CSMobile : 10 Order
 
 This contains API calls related to Orders
 
-##9.1 api2/order/add : Add New Order
+##10.1 api2/order/add : Add New Order
 
 Adds a new Order to the system
 
@@ -28,7 +28,7 @@ Adds a new Order to the system
 }
 ```
 
-##9.2 api2/order/clear : Order Clear
+##10.2 api2/order/clear : Order Clear
 
 Clear session data related to shopping cart order
 
