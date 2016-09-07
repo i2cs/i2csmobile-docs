@@ -4,7 +4,7 @@ This demonstrates how to push your updates to devices which already installed th
 ----
 
 ###Introduction
-We use `ionic` deploy service to push app updates to devices. The app core has pre defined methods to periodically check it's servers for new app updates. If such update is found, the end user will see a popup in their mobile app askig if it is ok to download the update and install it automatically. If the user is connected to a wifi network, the app will automatically update itself. When you need to send such update to devices follow the below instructions.
+We use `ionic deploy` service to push app updates to devices. The app core has pre defined methods to periodically check it's servers for new app updates. If such update is found, the end user will see a popup in their mobile app askig if it is ok to download the update and install it automatically. If the user is connected to a wifi network, the app will automatically update itself. When you need to send such update to devices follow the below instructions.
 
 ###Deploy Service
 
