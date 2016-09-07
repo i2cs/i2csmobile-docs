@@ -21,9 +21,9 @@ Snapshots are created by uploading a bundled version of your app code using the 
 
 In the following examples, fill in the following:
 
-> NOTE	A short description of this snapshot
+> **NOTE**	A short description of this snapshot
 
-> CHANNEL_TAG	production, staging, dev, or a tag of a custom channel
+> **CHANNEL_TAG**	`production`, `staging`, `dev`, or a tag of a custom channel
 
 
 Whenever you’re ready to create a snapshot of your application, run the upload command:
@@ -42,6 +42,8 @@ When you upload with the `--deploy` flag, your snapshot is immediately deployed 
 ```
 $ ionic upload --note "NOTE" --deploy CHANNEL_TAG
 ```
+
+> if the `CHANNEL_TAG` in above command is set to `production`, the current version will be available to all the active devices to update
 
 ####Binary Versioning
 You can determine if a snapshot is applicable for a device by using binary versioning. Binary versioning requires that you use a semantic version for your build version.
