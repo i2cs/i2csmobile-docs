@@ -53,5 +53,7 @@ After creating the language pack, that needs to be loaded to the UI. Language sw
 		{ name: "Italian", language_id: "it-IT" },
 	```
 3.	Open app.js and edit localeSupported and localeFallbacks values
+4.	
 		localeSupported - list of languages currently supported
+	
 		localeFallbacks - fallbacks when a particular language is present but not for the region from which the app is being opened (e.g. en-GB will use en-US)
