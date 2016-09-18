@@ -57,3 +57,4 @@ After creating the language pack, that needs to be loaded to the UI. Language sw
 		localeSupported - list of languages currently supported
 	
 		localeFallbacks - fallbacks when a particular language is present but not for the region from which the app is being opened (e.g. en-GB will use en-US)
+5.	If your language needs RTL layout, add the two character language code into `RTL_LANGUAGES` constant array of the `variables.js`  Ex `.constant('RTL_LANGUAGES', ['ar'])` will notify the  i18service to change the layout to RTL when ar is selected as the language
