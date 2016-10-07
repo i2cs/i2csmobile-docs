@@ -15,7 +15,7 @@ This product is based on ionic platform. You have to install ionic CLI if you ha
 
 The easiest way to get the Ionic CLI is through [npm](https://www.npmjs.com).
 
-'$ npm install -g ionic@1.7.14'
+`$ npm install -g ionic@1.7.14`
 
 Note: The app is based on ionic version 1.x. For a global install of -g ionic, OSX/Linux users may need to prefix the command with sudo.
 
