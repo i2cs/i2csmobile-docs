@@ -11,7 +11,15 @@ I2CSMOBILE_PACKAGE
     |__ ***
 ```
 
-This product is based on ionic platform. You have to install ionic CLI if you haven't done it yet. Please refer to [Installing the CLI globally](http://ionicframework.com/docs/cli/install.html)
+This product is based on ionic platform. You have to install ionic CLI if you haven't done it yet
+
+The easiest way to get the Ionic CLI is through [npm](https://www.npmjs.com).
+
+'$ npm install -g ionic@1.7.14'
+
+Note: The app is based on ionic version 1.x. For a global install of -g ionic, OSX/Linux users may need to prefix the command with sudo.
+
+Please refer to [Installing the CLI globally](http://ionicframework.com/docs/cli/install.html) if you need further details
 
 ####1. CREATE AN APP
 ```
