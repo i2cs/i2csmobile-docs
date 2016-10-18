@@ -22,9 +22,14 @@ See https://www.getpostman.com/docs/introduction to learn how to install and set
 
 #####Common issues
 
-1.	Im getting 401 unauthorized error on first test case (1.1 api2/login_mobile : Login)
+1.	Im getting HTTP Error 503 Service unavailable error
 
-   Reason for this issues is having an invalid key or not setting an key on `i2CSMobile` admin panel. Please go to the OpenCart admin panel and navigate to `OpenCart Admin panel > Modules > i2CSMobile` and set the API user key.
+   Please check if you have enabled maintenance mode in the OpenCart admin panel. You can check that from,
+   Log into your OpenCart Dashboard.
+      - Go to System > Settings.
+      - Select your store from the list and click “Edit”
+      - Go to the “Server” tab.
+      - Find the Maintenance Mode section (usually third from the top) and change it to “No”
 
 2.	Get Featured Products test is failed (12.1 api2/featured : Get Featured Products)
 
