@@ -47,11 +47,11 @@ This is the tab where you can make all the configuration changes to the `i2CSMob
 
 1.	Select the customer group for mobile app on Mobile User Group field. In our guide, we use Mobile app group. Customers are added to Mobile User Group when they are registered through mobile app. Furthermore, mobile only special prices are also calculated and presented based on this user group. You can see this special price on mobile in the purchase button and on item view page. This represents the price you offer to your mobile app users if the create an account in mobile app.
 
-2.	You can set the main banner of the home screen of the app from Main Banner field. All the available banners will be loaded to the dropdown and you may select one among them. Main banner is the one you can see in the Landing page of the app.
+2.	You can set the main banner of the home screen of the app from Main Banner field. All the available banners will be loaded to the dropdown and you may select one among them. Main banner is the one you can see in the Landing page of the app. See http://docs.opencart.com/system/design/banner/ to learn more about banners
 
-3.	You can configure a secondary banner in the API. In most cases you might need to show special offers in the main screen. Offer Banner field is to define a banner which appears in the home screen.
+3.	You can configure a secondary banner in the API. In most cases you might need to show special offers in the main screen. Offer Banner field is to define a banner which appears in the home screen. See http://docs.opencart.com/system/design/banner/ to learn more about banners
 
-4.	There is an Offers Tab in the mobile app to show new offers and special priced items. You can set an array of images to be listed there by configuring Offers Tab Banner field.
+4.	There is an Offers Tab in the mobile app to show new offers and special priced items. You can set an array of images to be listed there by configuring Offers Tab Banner field. See http://docs.opencart.com/system/design/banner/ to learn more about banners
 
 5.	I2CSMobile app supports featured items slideshow out-of-the box. You can see this in the shop main screen under the title Featured Products. Configuration for the featured items is available in the i2CSMobile admin panel with Featured Items Module dropdown. If you don’t see anything in the dropdown, please add Featured module and create a new featured item module. You can set items to be listed in the Featured Products section within the featured items module. See http://docs.opencart.com/extension/module/ to learn about core modules. 
 
