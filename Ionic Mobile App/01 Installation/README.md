@@ -29,8 +29,6 @@ cd myapp
 
 ####2. INSTALL DEPENDENCIES
 
-Note: You need to provide `GCM_PROJECT_NUMBER` When installing push notification plugin. Please follow [this tutorial](http://docs.ionic.io/docs/push-overview) to get a `GCM_PROJECT_NUMBER`. The latest plugin update requires that a SENDER_ID variable be set for Android. That is actually your GCM Project Number. If you're not using Android, you'll just need to pass a random string (you could even use the above command as-is).
-
 ```
 ionic plugin add cordova-plugin-device@1.1.1
 ionic plugin add cordova-plugin-statusbar@2.1.0
@@ -41,12 +39,18 @@ ionic plugin add cordova-plugin-app-event@1.2.0
 ionic plugin add cordova-plugin-splashscreen@3.2.2
 ionic plugin add cordova-plugin-device-orientation@1.0.3
 ionic plugin add cordova-plugin-whitelist@1.2.2
-ionic plugin add phonegap-plugin-push --variable SENDER_ID=GCM_PROJECT_NUMBER
 ionic plugin add https://github.com/vliesaputra/DeviceInformationPlugin
 ionic plugin add cordova-plugin-google-analytics@0.8.1
 ionic plugin add cordova-plugin-x-socialsharing@5.0.12
 ionic plugin add ionic-plugin-deploy@0.5.4
 ionic plugin add cordova-plugin-app-version@0.1.8
+ionic plugin add onesignal-cordova-plugin@2.0.3
+```
+
+if you want intercom.io integration
+
+```
+ionic plugin add cordova-plugin-intercom@3.0.11
 ```
 
 ####3. INIT THE IONIC PROJECT
