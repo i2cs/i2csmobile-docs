@@ -43,6 +43,7 @@ ionic plugin add https://github.com/vliesaputra/DeviceInformationPlugin
 ionic plugin add cordova-plugin-google-analytics@0.8.1
 ionic plugin add cordova-plugin-x-socialsharing@5.0.12
 ionic plugin add ionic-plugin-deploy@0.5.4
+ionic plugin add cordova-plugin-inappbrowser@1.4.0
 ionic plugin add cordova-plugin-app-version@0.1.8
 ionic plugin add onesignal-cordova-plugin@2.0.3
 ```
