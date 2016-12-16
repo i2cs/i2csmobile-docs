@@ -16,9 +16,9 @@
 
 ####[i2CSMobile : 08 Payment](08 Payment.md)
 
-####[i2CSMobile : 09 Order](09 Order.md)
+####[i2CSMobile : 09 Order](10 Order.md)
 
-####[i2CSMobile : 10 Customer](10 Customer.md)
+####[i2CSMobile : 10 Customer](09 Customer.md)
 
 ####[i2CSMobile : 11 Design](11 Design.md)
 
