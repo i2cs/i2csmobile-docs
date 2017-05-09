@@ -1,5 +1,5 @@
-##Quick Start with Ionic Starter
-###A guide to quickly set up and running the i2CSMobile app with ionic starter package
+## Quick Start with Ionic Starter
+### A guide to quickly set up and running the i2CSMobile app with ionic starter package
 
 This guide will explain you how to setup the app quickly using an ionic starter template. In a starter template we provide content of `www` folder, and all the additional dependencies should be installed by running few commands. Extract the content of the downloaded zip file. The package contains two folders for `ionic` app and `opencart` module. Open your CMD or terminal and navigate to the place where you would like your project to be initialized (Ex. `C:\projects\`).
 ```
@@ -21,13 +21,13 @@ Note: The app is based on ionic version 1.x. For a global install of -g ionic, O
 
 Please refer to [Installing the CLI globally](http://ionicframework.com/docs/cli/install.html) if you need further details
 
-####1. CREATE AN APP
+#### 1. CREATE AN APP
 ```
 ionic start myapp "C:\I2CSMOBILE_PACKAGE\ionic\starter\www"
 cd myapp
 ```
 
-####2. INSTALL DEPENDENCIES
+#### 2. INSTALL DEPENDENCIES
 
 ```
 ionic plugin add cordova-plugin-device@1.1.1
@@ -54,15 +54,15 @@ if you want intercom.io integration
 ionic plugin add cordova-plugin-intercom@3.0.11
 ```
 
-####3. INIT THE IONIC PROJECT
+#### 3. INIT THE IONIC PROJECT
 ```
 ionic io init
 ```
-####4. ADD PLATFORMS
+#### 4. ADD PLATFORMS
 ```
 ionic platform add android
 ```
-####5. BUILD IT FOR A PLATFORM OR SEE IT IN BROWSER 
+#### 5. BUILD IT FOR A PLATFORM OR SEE IT IN BROWSER 
 
 You can build the apk with following command. Make sure you have installed Android SDK on your computer before running this.
 ```
@@ -74,31 +74,31 @@ Or you can test the app in your web browser by entering following command. Note 
 ionic serve --lab
 ```
 
-##Quick Start with Full Source
-###A guide to quickly set up and running the i2CSMobile app with ionic full source package
+## Quick Start with Full Source
+### A guide to quickly set up and running the i2CSMobile app with ionic full source package
 
 Full source comes with all the dependencies. You need to extract the content of the `full-source.zip` and navigate to the path with CMD.
 
-####1. EXTRACT CONTENT OF `full-source.zip` TO A NEW FOLDER
+#### 1. EXTRACT CONTENT OF `full-source.zip` TO A NEW FOLDER
 
-####2. NAVIGATE TO THE PATH (where `www` folder is located)
+#### 2. NAVIGATE TO THE PATH (where `www` folder is located)
 ```
 cd myapp
 ```
-####3. INSTALL NPM PACKAGES
+#### 3. INSTALL NPM PACKAGES
 ```
 npm install
 ```
 
-####4. INIT THE IONIC PROJECT
+#### 4. INIT THE IONIC PROJECT
 ```
 ionic io init
 ```
-####5. ADD PLATFORMS
+#### 5. ADD PLATFORMS
 ```
 ionic platform add android
 ```
-####6. BUILD IT FOR A PLATFORM OR SEE IT IN BROWSER 
+#### 6. BUILD IT FOR A PLATFORM OR SEE IT IN BROWSER 
 
 You can build the apk with following command. Make sure you have installed Android SDK on your computer before running this.
 ```
