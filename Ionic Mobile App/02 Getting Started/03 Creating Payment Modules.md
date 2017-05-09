@@ -1,9 +1,9 @@
-##Creating Payment Modules
+## Creating Payment Modules
 
 With this tutorial we will create a new payment module in i2CSMobile app
 ----
 
-###Introduction to Payment Modules
+### Introduction to Payment Modules
 
 We have a pluggable payment module structure as defined in the following figure. `payment_modules.config.js` and `payment_modules.module.js` files are system files. 'payment_modules.module.js' file contains information about which payment modules are registered to the app.
 
@@ -31,7 +31,7 @@ app
 
 `i2cs_alipay` is the name of the payment module. We use the naming convention as `PAYMENT_MODULE_NAME.module.js` .etc to define the `js` files of the module. We need to have the same payment module name as in the `OpenCart` payment module code. The mobile app payment module will automatically loaded as the last step of checkout flow.
 
-###Payment Module in Checkout Flow 
+### Payment Module in Checkout Flow 
 
 The checkout flow in the i2CSMobile app is same as the checkout flow of the OpenCart. App collects user data, address, payment method and shipping method and when user taps on `confirm` button, app will search for registered payment modules having same name as code of the selected payment option of OpenCart and invoke the home route if it's available. If the payment module is not found, it will show the success page.
 
@@ -45,11 +45,11 @@ Ex.
 6. Proceed with steps depending on the implementation of the payment module. Service methods of the payment module are responsible for placing the order and updating the API with correct statuses. You need to register a payment handler in the OpenCart back-end to communicate with the payment module of the mobile app.
 
 
-###Module Components
+### Module Components
 
 Payment modules follow the same module structure as in any other general module for i2CSMobile app. Read [02 Creating a Module](02 Creating a Module.md) for more information.
 
-###Installing the Module
+### Installing the Module
 
 This step is similar to the steps of installing any other module, but with an exception. Again we need to edit two files.
 
