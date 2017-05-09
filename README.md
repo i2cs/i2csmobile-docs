@@ -1,4 +1,4 @@
-#i2CSMobile Shopping App for OpenCart/WooCommerce Backend
+# i2CSMobile Shopping App for OpenCart/WooCommerce Backend
 
 > **Note :** This repository contains only the documentation of the i2CSMobile product. Please contact us via email <a href="mailto:pasan@i2csmobile.com">pasan@i2csmobile.com</a> if you would like to purchase the full source code. See details of the product at [ionic marketplace for OpenCart](http://market.ionic.io/starters/opencart-mobile-shopping-cart-app-with-api-ionic-i2cs) and  [ionic marketplace for WooCommerce](http://market.ionic.io/starters/woocommerce-mobile-shopping-cart-app-with-api-by-i2cs)
 
@@ -20,7 +20,7 @@ Visit [http://i2csmobile.com](http://i2csmobile.com) for more info
 This repository is the product documentation of i2CSMobile App for OpenCart Backend. Easily configurable with any version of existing OpenCart 2.x online shopping site via our API. Following are some of the features available,
 <br/>
 
-#Features
+# Features
 
 <ul>
 <li>Configurable banners</li>
@@ -47,14 +47,14 @@ This repository is the product documentation of i2CSMobile App for OpenCart Back
 
 ![alt text](http://saasthara.com/i2cs/i2csmobilecartweb/images/catalog.png "Catalog")
 
-#What you get
+# What you get
 <ul>
 <li>Full ionic source code (you may compile it to any platform, as you wish + change the source)</li>
 <li>Full source code for OpenCart 2.x API module</li>
 <li>User guide (how to setup push notifications, analytics etc)</li>
 </ul>
 
-#Demo
+# Demo
 
 |           | OpenCart | WooCommerce   |
 | :------- | :---: | :---: |
@@ -63,7 +63,7 @@ This repository is the product documentation of i2CSMobile App for OpenCart Back
 | Ionic View ID     | `59e395a2`    |  `2cf20c90`  |
 
 
-###OpenCart 2.x Demo backend
+### OpenCart 2.x Demo backend
 *Note : Push notifications and analytics are not available in the demo site
 <div>
 <a href="http://saasthara.com/i2cs/shops/demo/upload/admin/index.php?route=module/i2csmobile" target="_blank">OpenCart 2.x Demo</a>
