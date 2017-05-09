@@ -1,16 +1,16 @@
-#Installation guide of i2CSMobile OpenCart 2.x API module
+# Installation guide of i2CSMobile OpenCart 2.x API module
 
-##Configurations
+## Configurations
 
 This section describes the configurations you have to do in order to make the mobile app work with the OpenCart store. We try to keep your existing store as it is, and use the same data for the mobile app. That’s why we need configurations. In simple terms, we tell OpenCart to provide data to the new mobile app by setting configurations.
 
-###Getting Started
+### Getting Started
 
 We try to keep mobile app related processes and default web app processes away as much as possible. With this, we can achieve better control on how your customers see necessary content. For example, what if you want to make some items available only for mobile app but not to the web, or the other way around? What if you want to give special discounted prices for mobile app orders, and a different discount if the user is registered in mobile app? We have answers for all these questions, good thing is we can do that with minimum changes to your existing shopping cart.
 
 To go ahead, we assume that you have successfully installed the `i2CSMobile` module for OpenCart 2.x and made at least one successful API call. Furthermore you need an admin account having proper privileges to do necessary configuration changes on `i2CSMobile` module.
 
-###Creating a new Customer Group [Optional Step]
+### Creating a new Customer Group [Optional Step]
 
 Please note that this section is optional. You can create a new Customer Group for mobile app users to make maximum use of the `i2CSMobile` app.
 
@@ -20,7 +20,7 @@ Please note that this section is optional. You can create a new Customer Group f
 
 3.	Choose a name for your group. We used Mobile app as the name for this guide
 
-###Creating a new Store [Optional Step]
+### Creating a new Store [Optional Step]
 
 Please note that this section is optional. You can go ahead with default store or any other store you have created within your OpenCart and let the mobile use data from them. But if you create a new store dedicated to the mobile app, you can do beautiful things like creating special offers on mobile, have different product catalogs on mobile and web and more.
 
@@ -35,13 +35,13 @@ Please note that this section is optional. You can go ahead with default store o
 5.	Save to add the new store. You will be shown a success message `Success: You have modified Stores!`
 
 
-###I2CSMobile Settings
+### I2CSMobile Settings
 
 Now you are ready to setup the configurations and make them all wire up to get the mobile app up and running. We had couple of non-required steps previously to take maximum advantage from the API. But even if you have skipped them, you can continue from this step.
 
 1.	Go to `OpenCart Admin panel > Extensions > Modules > i2CSMobile`
 
-####Settings Tab
+#### Settings Tab
 
 This is the tab where you can make all the configuration changes to the `i2CSMobile` system. Changes you make here are directly reflected to the mobile app, thus it’s recommended to test the live app each time you make any configuration change.
 
@@ -57,7 +57,7 @@ This is the tab where you can make all the configuration changes to the `i2CSMob
 
 6.	There is a set of categories in the Shop main screen of the mobile app to provide quick navigation for the customers. You can configure which categories you’d like to show in the app using Categories field. If none of the categories are selected, the system will show all the parent categories.
 
-#####Common Issues
+##### Common Issues
 
 1.  I don’t see products when run the app
 
@@ -68,4 +68,4 @@ This is the tab where you can make all the configuration changes to the `i2CSMob
     No. It will work fine even if you have only one store within the OpenCart. It’s totally an optional step to create a new store 
 
 
-####[Section 3 : Testing the API](03 Testing the API.md) 
+#### [Section 3 : Testing the API](03%20Testing%20the%20API.md) 
