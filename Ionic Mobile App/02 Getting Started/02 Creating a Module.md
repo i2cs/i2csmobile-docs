@@ -1,9 +1,9 @@
-##Creating a Module
+## Creating a Module
 
 This guide will take you through how to create a new module in i2CSMobile app
 ----
 
-###Anatomy of a Module
+### Anatomy of a Module
 
 Normally each module which interacts directly with end user has following structure. We have 4 different `js` files to initialize the angular module, which we believe very easy to maintain a clean source code. From these `js` files, `sample.module.js`, `sample.config.js` and `sample.controllers.js` are mandatory. 
 
@@ -25,7 +25,7 @@ app
 
 `sample` is the name of the module. We use the naming convention as `MODULE_NAME.module.js` .etc to define the `js` files of the module. 
 
-###Module Components
+### Module Components
 
 `sample.module.js`
 -----
@@ -137,7 +137,7 @@ angular
 We pass the angular `promise` up to the controller level and consume data only at the point of executing the function from the controller. This practice made most of the async calls very easy to manage and project dynamically to the UI.
 Note : Keep `$scope` variable in between controller and the UI template as a practice. Since we are not passing `$scope` to service layer, it's very easy to get rid of `$scope` variable and start using `this`
 
-###Installing the Module
+### Installing the Module
 
 In order to install a new module, we need to edit two files.
 
