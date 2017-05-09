@@ -1,6 +1,6 @@
-#Installation guide of i2CSMobile OpenCart 2.1 API module
+# Installation guide of i2CSMobile OpenCart 2.1 API module
 
-##Testing the API
+## Testing the API
 
 This section demonstrates to do a quick test to see if the API is working properly. Working API is mandatory for all the functionality of the mobile app. We are pulling data to present in your app from your store via the API. In this section we use a 3rd party API call maker to see if it returns a valid response.
 
@@ -10,7 +10,7 @@ https://www.getpostman.com
 
 See https://www.getpostman.com/docs/introduction to learn how to install and setup Postman. 
 
-###Import the Postman test project
+### Import the Postman test project
 
 1.	Once you successfully installed the Postman app, you can import the `i2CSMobile_API_FullTest.json`
 
@@ -20,7 +20,7 @@ See https://www.getpostman.com/docs/introduction to learn how to install and set
 
 4.	Ideally you should get 100% pass rate. Otherwise there can be faild test cases depending on the data. For example, one test case might fail if your store doesn’t support Cash on delivery payment. But if you are getting a `200 OK` status code for all the tests, you are too good to go ahead with `i2CSMobile`.
 
-#####Common issues
+##### Common issues
 
 1.	Im getting HTTP Error 503 Service unavailable error
 
