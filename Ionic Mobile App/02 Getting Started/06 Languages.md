@@ -1,9 +1,9 @@
-##Adding a New Language
+## Adding a New Language
 
 This demonstrates how to add a new language in i2CSMobile app
 ----
 
-###Introduction
+### Introduction
 
 Language files are located in the `www` > `languages` folder. You can find there are folders for each language currently available in the mobile app. The language folder should be named following `ISO 639-1` language code, dash, ISO country code. Ex, `en-US`. See the [complete list of language codes](http://www.w3schools.com/tags/ref_language_codes.asp) and [complete list of country codes](http://www.w3schools.com/tags/ref_country_codes.asp). Within the folder you have a set of `json` files containing key value pairs. Key represents the label name used in the app UI and value is the localized language string. 
 
@@ -11,7 +11,7 @@ We used an angular i18n library available on github to implement the internation
 
 Note: Language strings can not contain HTML tags, they are supposed to be clear strings. However, you can have variables in the string (see bellow).
 
-###Create a new language pack
+### Create a new language pack
 
 In this example, lets assume you are translating the app UI into `Italian`. Our language pack name will be `it-IT`. 
 
@@ -42,7 +42,7 @@ In this example, lets assume you are translating the app UI into `Italian`. Our 
 
 5.	Do the translation to all the language files.
 
-###Loading the language to app
+### Loading the language to app
 
 After creating the language pack, that needs to be loaded to the UI. Language switch is located in the `info` tab of the app.
 
