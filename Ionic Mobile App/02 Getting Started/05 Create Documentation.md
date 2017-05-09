@@ -1,9 +1,9 @@
-##Documentation with ngdocs
+## Documentation with ngdocs
 
 This will show how documentation in i2CSMobile app is generated using comments
 ----
 
-###Generate Documentation
+### Generate Documentation
 
 ```
 Prerequisite : Install grunt on your machine. Please install grunt globally by running
